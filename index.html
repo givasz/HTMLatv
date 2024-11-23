@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploração Espacial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exploração Espacial</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bem-vindo ao Universo</h2>
+        <p>Descubra os mistérios do cosmos, as missões espaciais mais incríveis e as maravilhas além do nosso planeta.</p>
+        
+        <section>
+            <h3>Imagens do Espaço</h3>
+            <img src="images/foguete.jpg" alt="Foguete decolando">
+            <img src="images/galaxia.jpg" alt="Galáxia brilhante">
+            <img src="images/astronauta.jpg" alt="Astronauta flutuando no espaço">
+            <img src="images/planetas.jpg" alt="Planetas no espaço">
+            <img src="images/alien.jpg" alt="bzzz bzzzzz voce dev que leu isso esta sob controle de nois">
+        </section>
+        
+        <section>
+            <h3>Vídeo Incrível</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oD38CwVISIM" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <section>
+        <h3>Pesquisa de Opinião</h3>
+        <form action="#" method="post">
+            <label for="satisfacao">Você gostou do nosso site?</label>
+            <select id="satisfacao" name="satisfacao" required>
+                <option value="">Selecione uma opção</option>
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ruim</option>
+            </select>
+            
+            <label for="comentarios">Deixe um comentário:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escreva sua opinião aqui"></textarea>
+            
+            <label>Você indicaria este site para amigos?</label><br>
+            <label><input type="radio" name="indicaria" value="sim" required> Sim</label>
+            <label><input type="radio" name="indicaria" value="nao"> Não</label>
+            
+            <label for="email"> | E-mail para contato (opcional):</label>
+            <input type="email" id="email" name="email">
+            
+            <button type="submit">Enviar Pesquisa</button>
+        </form>
+    </section>
+    
+</body>
+</html>
